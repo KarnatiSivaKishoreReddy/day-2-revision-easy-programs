@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int phy,chem,bio,maths,comp;
+	int total;
+	float percent;
+	cout<<"Enter marks of computer";
+	cin>>phy;
+	cout<<"enter marks of English";
+	cin>>chem;
+	cout<<"enter marks of maths";
+	cin>>maths;
+	cout<<"enter marks of physics";
+	cin>>comp;
+	total= phy+chem+bio+maths+comp;
+	percent=total/4.0;
+	 if(percent>=75)
+	{
+		cout<<"destinction";
+	}
+	else if(percent>=60)
+	{
+		cout<<"first division";
+	}
+	else if(percent>=50)
+	{
+		cout<<"second division";
+	}
+	else if(percent>=40)
+	{
+		cout<<"third division";
+	}
+	else
+	    cout<<"fail";
+}
