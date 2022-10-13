@@ -1,0 +1,17 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main()
+{
+    string str1,str2;
+    cout<<"enter the username:";
+    cin>>str1;
+    cout<<"reenter the username:";
+    cin>>str2;
+    if(str1==str2) 
+      cout<<"username is valid";
+    else
+      cout<<"username is invalid";
+     return 0;
+    
+}
